@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>10-12-2001</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script>
+            function myFunction() {
+              document.getElementById("wrap").style.display = "none";
+            }
+
+            function myFunction2() {
+              document.getElementById("wrap").style.display = "block";
+              document.getElementById("text").innerHTML = "Trang này rỗng =))"
+            }
+            function myFunction3() {
+              document.getElementById("wrap").style.display = "block";
+              document.getElementById("text").innerHTML = "Kỉ niệm quá 2 năm học Bách Khoa. Cũng có khó khăn hay cũng có nhiều lần lạc lối nhưng chưa bao giờ hối hận vì quyết định học khoa này, ngôi trường này"
+            }
+            function myFunction4() {
+              document.getElementById("wrap").style.display = "block";
+              document.getElementById("text").innerHTML = "2021-2001, Đến tuổi đầu 2, đến tuổi có thể lấy vợ :)). Còn đến tuổi trưởng thành chưa thì chưa được kiểm duyệt"
+            }
+            function myFunction5() {
+              document.getElementById("wrap").style.display = "block";
+              document.getElementById("text").innerHTML = "11 năm Madrisista kèm có cái tật xem bóng hay gáy bẩn "
+            }
+            function myFunction6() {
+              document.getElementById("wrap").style.display = "block";
+              document.getElementById("text").innerHTML = "Định văn vở gì đó nhưng mà do nhác nên thôi để tạm cái web đầu 2"
+            }
+                       
+        </script>
+    </head>
+    <body>
+        <div class="hero">
+            <div class="bubbles">
+                <img src = "image/bubble5.png" onclick="myFunction2()">
+                <img src = "image/bubble3.png" onclick="myFunction3()">
+                <img src = "image/bubble1.png" onclick="myFunction4()">
+                <img src = "image/bubble2.png" onclick="myFunction5()">
+                <img src = "image/bubble4.png" onclick="myFunction6()">
+            </div>
+            <div id="wrap">
+                <button onclick="myFunction()">X</button>
+                <span id="text">
+
+                </span>
+
+            </div>
+            <div class="name">
+              VLN-BIRTHDAY
+            </div>
+            <div class="audio">
+              <audio controls>
+                <source src="Palette - G-Dragon_ IU.mp3" type="audio/mpeg">
+            </audio>
+            </div>
+        </div>
+    </body>
+</html>
